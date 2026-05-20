@@ -1,0 +1,77 @@
+body{
+    padding: auto;
+}
+.container{
+    background-image: url(images/snow.jpeg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+h1{
+    color: rgb(0, 12, 14);
+
+}
+.header{
+    display: flex;
+}
+.mode{
+    display: ;
+}
+.light{
+    height: auto;
+    border-radius: 80px;
+}
+.dark{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    border-radius: 80px;
+}
+#loc{
+    border-radius: 70px;
+    border: solid blue 3px;
+    padding: auto;
+}
+#loc:focus{
+    background-color: rgb(0, 113, 128);
+    color: white;
+}
+.btn{
+    border: rgb(0, 162, 255) 2px solid;
+    border-radius: 30px;
+    font-weight: 900;
+    background-color: blue;
+    color: white;
+
+}
+.btn:focus{
+    background-color: red;
+    color: yellow;
+}
+.results{
+    display: flex;
+    gap: 7px;
+    margin-top: 60px;
+}
+.cube{
+    width: 150px;
+}
+.temp{
+    
+    border: 2px solid greenyellow;
+    font-size: 50px;
+}
+.humidity{
+    
+    border: 2px solid greenyellow;
+    font-size: 50px;
+}
+.condition{
+    
+    border: 2px solid greenyellow;
+    font-size: 50px;
+}
+.wind{
+    
+    border: 2px solid greenyellow;
+    font-size: 50px;
+}
